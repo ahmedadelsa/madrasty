@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif-serif;
+}
+
+/* start school section */
+.school-home h1{
+    color: #074d4c;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+.school-home hr{
+    width: 200px;
+    margin: auto;
+    background-color:red;
+    border: none;
+    height: 4px;
+}
+.school-home h3{
+    color: #439da5;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.school-home p{
+    font-weight: 500;
+    font-family: sans-serif;
+    color: black;
+}
+/* end school section */
+
+
+/* start touch home */
+.touch-home{
+    background-image: url(IMG/Path\ 62.png) , url(IMG/i-love-my-job-so-much_329181-2178.png);
+    height: 800px;
+    background-size: cover;
+}
+.touch-home h2{
+    font-family: sans-serif;
+}
+.touch-home img{
+    padding: 20px;
+}
+.touch-home h3{
+    color: #4096a5;
+    font-family: sans-serif;
+    padding:0px 15px;
+}
+.touch-home p{
+    padding:10px 15px;
+    font-family: sans-serif;
+    color: #7c7b7b;
+}
+.touch-home .ahmed{
+    border-radius: 20px;
+}
+@media only screen and (max-width:992px){
+    .touch-home{
+        height: fit-content;
+    }
+}
+/* End touch home */
+   
+
+/* start footer section */
+.footer-home a{
+    text-decoration: none;
+    color: #7c7b7b;
+}
+/* end footer section */
